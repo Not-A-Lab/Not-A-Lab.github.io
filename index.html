@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christian Abou Mrad</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
+    <link rel="manifest" href="assets/icon/site.webmanifest">
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- Analytics - TODO: Set up analytics for new site -->
+    <!-- <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-R13B7T2SGY"
+    ></script>
+    <script src="/js/analytics.js"></script> -->
+    <!-- New website popup styles -->
+    <!-- <script>
+      // New website popup functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        const popup = document.getElementById('new-site-popup');
+        const closeBtn = document.getElementById('popup-close-btn');
+        const viewLegacyBtn = document.getElementById('view-legacy-btn');
+        
+        // Check if user has already dismissed the popup
+        const hasSeenPopup = localStorage.getItem('pragmaticpapers-popup-dismissed');
+        
+        if (hasSeenPopup) {
+          popup.style.display = 'none';
+        }
+        
+        // Close popup functionality
+        function closePopup() {
+          popup.classList.add('hidden');
+          setTimeout(() => {
+            popup.style.display = 'none';
+            // Remember that user has seen the popup
+            localStorage.setItem('pragmaticpapers-popup-dismissed', 'true');
+          }, 300);
+        }
+        
+        // Event listeners
+        closeBtn.addEventListener('click', closePopup);
+        viewLegacyBtn.addEventListener('click', closePopup);
+        
+        // Close popup when clicking outside of it
+        popup.addEventListener('click', function(e) {
+          if (e.target === popup) {
+            closePopup();
+          }
+        });
+        
+        // Close popup with Escape key
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape' && popup.style.display !== 'none') {
+            closePopup();
+          }
+        });
+      });
+    </script> -->
+  </head>
+  <body>
+    <!-- New Website Popup -->
+    <!-- <div id="new-site-popup" class="popup-overlay">
+      <div class="popup-content">
+        <div class="popup-header">
+          <h3>We've Moved!</h3>
+          <button class="popup-close" id="popup-close-btn" aria-label="Close popup">&times;</button>
+        </div>
+        <div class="popup-body">
+          <p>The Pragmatic Papers has moved to a new home!</p>
+          <p>Visit our updated website at <strong>pragmaticpapers.com</strong> for the latest content and improved experience.</p>
+          <div class="popup-buttons">
+            <a href="https://pragmaticpapers.com/" class="popup-btn primary" target="_blank" rel="noopener noreferrer">
+              Visit New Site
+            </a>
+            <button class="popup-btn secondary" id="view-legacy-btn">
+              View Legacy Site
+            </button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <header>
+      <div style="height: 16px;"></div>
+      <img
+        class="logo"
+      />
+    </header>
+
+   <div class="image-container">
+      <picture>
+        <!-- WebP version for modern browsers -->
+        <source
+          srcset="
+            /assets/goodpic.webp
+          "
+          sizes="(max-width: 600px) 100vw, 800px"
+          type="image/webp"
+        />
+        <!-- Original format fallback -->
+        <source
+          srcset="
+            /assets/goodpic.jpg
+          "
+          sizes="(max-width: 600px) 100vw, 800px"
+        />
+        <!-- Final fallback image with preserved classes -->
+        <img
+          src="/assets/goodpic.jpg"
+          alt="Mepic"
+          width="1955"
+          height="1295"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+
+    <div class="author">
+      <span
+        >
+        <strong
+          ><a href="https://linkedin.com/in/christian-abou-mrad-b49ab1222"
+            >[linkedIn]</a
+          ></strong
+        ></span>
+
+      <span
+        >|
+        <strong
+          ><a href="https://github.com/Chris-amV"
+            >[Github]</a
+          ></strong
+        ></span>
+
+      <span
+        >|
+        <strong
+          ><a href="mailto:aboumrac@oregonstate.edu"
+            >[aboumrac@oregonstate.edu]</a
+          ></strong
+        ></span>
+    </div>
+
+    <br />
+
+<h2 class="htitle">Christian Abou Mrad</h2>
+
+<p>
+  I am a PhD student in <strong>Artificial Intelligence and Robotics</strong> at
+  <a href="https://oregonstate.edu">Oregon State University</a>, advised by
+  <a href="https://engineering.oregonstate.edu/people/houssam-abbas">Dr. Houssam Abbas</a>.
+  I’m generally interested in ways to enable autonomous systems to be
+  <strong><span style="color: var(--very-light-brand-color);">safe and reliable in
+  complex, dynamic environments</span></strong>.
+<p>
+  My <em>current research</em> develops geometric representations of
+  <strong><span style="color: var(--very-light-brand-color);">Temporal Logic formulas</span></strong>,
+  which make it easier to sample, project, and interpret system behaviors.
+  This approach supports new methods for verification, trajectory planning, and control synthesis for
+  <strong><span style="color: var(--very-light-brand-color);">Cyber-Physical Systems.</span></strong>
+</p>
+
+<p>
+  Previously, I earned a bachelor's degree in <strong>Computer and Communication Engineering</strong>
+  from <a href="https://www.aub.edu.lb">The American University of Beirut</a>, Lebanon,
+  where I built a strong foundation in
+  <strong><span style="color: var(--very-light-brand-color);">software, hardware systems, and signal processing</span></strong>.
+</p>
+
+
+
+
+
+<br />
+
+    <div class="volumes-title">
+      <h1>Research</h1>
+    </div>
+
+    <div class="volumes">
+      <div class="volume">
+        <div class="volumeinfo">
+          <span class="volumetitle">Research I</span>
+          <span class="volumedate">2023-202_</span>
+        </div>
+        <div class="volumedata">
+          <a class="volumelink" href=".">
+            <h2 class="htitle">
+              Geometric Representations of Signal Temporal Logic for Verification and Control
+            </h2>
+            <p class="volumedescription">
+                Signal Temporal Logic (STL) lets us express requirements like “always avoid obstacles” or
+                “reach a target within 10 seconds,” but robots can’t directly use this language.
+                My current research explores how to translate STL formulas into geometry:
+                a space of points that represent all possible behaviors satisfying the requirements.
+                Early results show this geometric view can guide falsification (finding unsafe behaviors),
+                improve trajectory planning, and help design controllers that make autonomous systems,
+                like UAVs, safer and more reliable.
+                This is ongoing work, and we are refining these methods with the goal of making them practical
+                for real-world autonomous systems.
+            </p>
+          </a>
+          <div class="squigglestatic"></div>
+        </div>
+      </div>
+
+
+
+      <div class="volume">
+        <div class="volumeinfo">
+          <span class="volumetitle">Research II</span>
+          <span class="volumedate">2025-202_</span>
+        </div>
+        <div class="volumedata">
+          <a class="volumelink" href=".">
+            <h2 class="htitle">
+              Exploring Control and Navigation with Crazyflie Drones
+            </h2>
+            <p class="volumedescription">
+              Alongside my main research, I work with the Crazyflie nano drones as a platform
+              for testing control models and experimenting with navigation strategies.
+              This work is still at an early stage and mostly exploratory — getting comfortable
+              with the hardware, running small experiments, and testing different control approaches.
+              Over time, these experiments will develop into larger projects on safe navigation
+              and multi-robot systems.
+            </p>
+          </a>
+          <div class="squigglestatic"></div>
+        </div>
+      </div>
+    </div>
+
+    <h2>Publications</h2>
+
+      <div class="publication" onclick="window.open('https://doi.org/10.1145/3716550.3722040', '_blank')" style="cursor:pointer;">
+        Christian Abou-Mrad, Tanmay Khandait, Giulia Pedrielli, Houssam Abbas. "Falsification and Control of CPS using the Language Set 
+        of Discrete-Time Temporal Logic." Proc. ACM/IEEE ICCPS, 2025.
+      </div>
+
+      <div class="publication" onclick="window.open('https://doi.org/10.1145/3641513.3650139', '_blank')" style="cursor:pointer;">
+        Christian Abou-Mrad, Houssam Abbas. "Approximating the Geometry of Temporal Logic Formulas." Proc. ACM HSCC, 2024.
+      </div>
+  </body>
+</html>
